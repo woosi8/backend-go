@@ -1,0 +1,8 @@
+장호준
+배배배
+박서영
+개발자
+송우철
+박도원
+김하림
+{% comment %} lottery.exe candidates.txt 4(뽑을인원) {% endcomment %}
