@@ -113,3 +113,5 @@ func readCandidates(filename string) ([]string, error) {
 	return candidates, nil
 
 }
+
+// 터미널에 lottery.exe candidates.txt 4(뽑을인원)

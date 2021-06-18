@@ -1,8 +1,6 @@
-장호준
-배배배
-박서영
-개발자
-송우철
-박도원
-김하림
-{% comment %} lottery.exe candidates.txt 4(뽑을인원) {% endcomment %}
+김영찬
+조경호
+조서연
+오승원
+최혁
+서성래
