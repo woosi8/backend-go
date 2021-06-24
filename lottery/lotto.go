@@ -115,5 +115,5 @@ func readCandidates(filename string) ([]string, error) {
 }
 
 // 터미널에 lottery.exe candidates.txt 4(뽑을인원)
-// cd lottery
-// lottery.exe candidates.txt 3
+cd lottery   
+lottery.exe candidates.txt 4
