@@ -12,7 +12,8 @@ var stdin = bufio.NewReader(os.Stdin) // NewReader: input으로부터 값을 읽
 
 func InputIntValue() (int,error)  {
 	var n int
-	_, err := fmt.Scanln(&n) //&n = 주소 (pointer)를 넘겨줘야 (공간을 넘겨주기위해)값을 채울수 있다, 입력값을 받을때 scanLn으로 받았고
+	//&n = 주소 (pointer공간)을 넘겨줘야 값을 채울수 있다, 입력값을 받을때 scanLn으로 받았고
+	_, err := fmt.Scanln(&n) 
 	if err != nil {
 		stdin.ReadString('\n') //에러가 있으면 개행문자가 나올때까지 stdin에서 읽어라 (입력버퍼에 문자가 나올때까지 비워주는 역할)
 	}
@@ -23,7 +24,7 @@ func InputIntValue() (int,error)  {
 func main()  {
 	rand.Seed(time.Now().UnixNano())	
 
-	r := rand.Intn(100)
+	r := rand.Intn(10)
 	cnt := 1
 	for{
 		fmt.Println("숫자를 입력하세요 : ")
